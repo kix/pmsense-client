@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pmsense-client/static/css/main.d1b05096.chunk.css",
+    "main.js": "/pmsense-client/static/js/main.e1ca1a01.chunk.js",
+    "main.js.map": "/pmsense-client/static/js/main.e1ca1a01.chunk.js.map",
+    "runtime-main.js": "/pmsense-client/static/js/runtime-main.58caffb2.js",
+    "runtime-main.js.map": "/pmsense-client/static/js/runtime-main.58caffb2.js.map",
+    "static/js/2.0ad90753.chunk.js": "/pmsense-client/static/js/2.0ad90753.chunk.js",
+    "static/js/2.0ad90753.chunk.js.map": "/pmsense-client/static/js/2.0ad90753.chunk.js.map",
+    "index.html": "/pmsense-client/index.html",
+    "precache-manifest.8907a51a334ba6ca3541b475ce3ffd02.js": "/pmsense-client/precache-manifest.8907a51a334ba6ca3541b475ce3ffd02.js",
+    "service-worker.js": "/pmsense-client/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/pmsense-client/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.0ad90753.chunk.js.LICENSE.txt": "/pmsense-client/static/js/2.0ad90753.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58caffb2.js",
+    "static/js/2.0ad90753.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.e1ca1a01.chunk.js"
+  ]
+}
