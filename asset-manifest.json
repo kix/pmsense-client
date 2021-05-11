@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/pmsense-client/static/css/main.d1b05096.chunk.css",
-    "main.js": "/pmsense-client/static/js/main.6af9ac2e.chunk.js",
-    "main.js.map": "/pmsense-client/static/js/main.6af9ac2e.chunk.js.map",
+    "main.js": "/pmsense-client/static/js/main.ff36f00b.chunk.js",
+    "main.js.map": "/pmsense-client/static/js/main.ff36f00b.chunk.js.map",
     "runtime-main.js": "/pmsense-client/static/js/runtime-main.58caffb2.js",
     "runtime-main.js.map": "/pmsense-client/static/js/runtime-main.58caffb2.js.map",
-    "static/js/2.fb0c4ac5.chunk.js": "/pmsense-client/static/js/2.fb0c4ac5.chunk.js",
-    "static/js/2.fb0c4ac5.chunk.js.map": "/pmsense-client/static/js/2.fb0c4ac5.chunk.js.map",
+    "static/js/2.04fc3eef.chunk.js": "/pmsense-client/static/js/2.04fc3eef.chunk.js",
+    "static/js/2.04fc3eef.chunk.js.map": "/pmsense-client/static/js/2.04fc3eef.chunk.js.map",
     "index.html": "/pmsense-client/index.html",
-    "precache-manifest.9f300f3de664a6bfe725341fc5bb4178.js": "/pmsense-client/precache-manifest.9f300f3de664a6bfe725341fc5bb4178.js",
+    "precache-manifest.b4d2b91e09d6276430b4cbd672c80511.js": "/pmsense-client/precache-manifest.b4d2b91e09d6276430b4cbd672c80511.js",
     "service-worker.js": "/pmsense-client/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/pmsense-client/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.fb0c4ac5.chunk.js.LICENSE.txt": "/pmsense-client/static/js/2.fb0c4ac5.chunk.js.LICENSE.txt"
+    "static/js/2.04fc3eef.chunk.js.LICENSE.txt": "/pmsense-client/static/js/2.04fc3eef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.58caffb2.js",
-    "static/js/2.fb0c4ac5.chunk.js",
+    "static/js/2.04fc3eef.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.6af9ac2e.chunk.js"
+    "static/js/main.ff36f00b.chunk.js"
   ]
 }
