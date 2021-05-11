@@ -31,13 +31,13 @@ function Values({values}) {
       }
       {values['pm2.5'] &&
       <div>
-        <strong>PM0.1</strong>
+        <strong>PM2.5</strong>
         <p>{values['pm2.5']}</p>
       </div>
       }
       {values['pm10'] &&
       <div>
-        <strong>PM0.1</strong>
+        <strong>PM10</strong>
         <p>{values['pm10']}</p>
       </div>
       }
