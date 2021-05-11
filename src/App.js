@@ -109,7 +109,7 @@ function App() {
         "createdAt": now.toISOString()
       };
 
-      fetch("http://108.61.170.159:9200/measurements/_doc", {
+      fetch("https://pms.kixlive.ru/measurements/_doc", {
         method: 'POST',
         headers: {
           "Content-Type": 'application/json',
