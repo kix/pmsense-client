@@ -103,6 +103,7 @@ function App() {
     const interval = setInterval(() => {
       const body = {
         location: location.lat + ', ' + location.lng,
+        accuracy: location.acc,
         "pm0.1": values['pm0.1'],
         "pm2.5": values['pm2.5'],
         "pm10": values['pm10'],
