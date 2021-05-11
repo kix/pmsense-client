@@ -81,7 +81,7 @@ function App() {
   }
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const timeout = setTimeout(() => {
       if (!primaryService) {
         return;
       }
@@ -89,7 +89,7 @@ function App() {
       fetchMetrics(primaryService);
     }, 1000);
 
-    return () => clearInterval(interval);
+    return () => clearTimeout(timeout);
   });
 
 
@@ -116,7 +116,7 @@ function App() {
         },
         body: JSON.stringify(body)
       })
-    }, 1000);
+    }, 10000);
     return () => clearInterval(interval);
   }, [values]);
 
