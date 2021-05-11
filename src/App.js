@@ -135,7 +135,7 @@ function App() {
       })
     }, 10000);
     return () => clearInterval(interval);
-  }, [values, fingerprint]);
+  }, [values]);
 
 
   return (
