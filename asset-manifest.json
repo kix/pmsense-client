@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pmsense-client/static/css/main.d1b05096.chunk.css",
-    "main.js": "/pmsense-client/static/js/main.ff36f00b.chunk.js",
-    "main.js.map": "/pmsense-client/static/js/main.ff36f00b.chunk.js.map",
+    "main.js": "/pmsense-client/static/js/main.6b2af19a.chunk.js",
+    "main.js.map": "/pmsense-client/static/js/main.6b2af19a.chunk.js.map",
     "runtime-main.js": "/pmsense-client/static/js/runtime-main.58caffb2.js",
     "runtime-main.js.map": "/pmsense-client/static/js/runtime-main.58caffb2.js.map",
     "static/js/2.04fc3eef.chunk.js": "/pmsense-client/static/js/2.04fc3eef.chunk.js",
     "static/js/2.04fc3eef.chunk.js.map": "/pmsense-client/static/js/2.04fc3eef.chunk.js.map",
     "index.html": "/pmsense-client/index.html",
-    "precache-manifest.b4d2b91e09d6276430b4cbd672c80511.js": "/pmsense-client/precache-manifest.b4d2b91e09d6276430b4cbd672c80511.js",
+    "precache-manifest.6c0b2ef88aac2c6bce810dac34feaf03.js": "/pmsense-client/precache-manifest.6c0b2ef88aac2c6bce810dac34feaf03.js",
     "service-worker.js": "/pmsense-client/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/pmsense-client/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.04fc3eef.chunk.js.LICENSE.txt": "/pmsense-client/static/js/2.04fc3eef.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.58caffb2.js",
     "static/js/2.04fc3eef.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.ff36f00b.chunk.js"
+    "static/js/main.6b2af19a.chunk.js"
   ]
 }
