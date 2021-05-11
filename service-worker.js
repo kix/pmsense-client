@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pmsense-client/precache-manifest.885cd6aaa189f1e002a9b65ec3e51002.js"
+  "/pmsense-client/precache-manifest.a35516a3ee1411bd5b09a1c9bf7b4ac0.js"
 );
 
 self.addEventListener('message', (event) => {

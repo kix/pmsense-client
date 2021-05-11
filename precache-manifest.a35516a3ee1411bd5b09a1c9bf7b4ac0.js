@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a3908f5afe0f4a943537db76a91f660",
+    "revision": "63429452fc80fce24d4ee9316aa2fde6",
     "url": "/pmsense-client/index.html"
   },
   {
-    "revision": "3ff0fa4688a95f577793",
+    "revision": "12e337e6e3c79a4c4ea0",
     "url": "/pmsense-client/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmsense-client/static/js/2.fb0c4ac5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ff0fa4688a95f577793",
-    "url": "/pmsense-client/static/js/main.b8d34eed.chunk.js"
+    "revision": "12e337e6e3c79a4c4ea0",
+    "url": "/pmsense-client/static/js/main.0037e08a.chunk.js"
   },
   {
     "revision": "f1e040b429f27d93135c",
