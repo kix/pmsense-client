@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import { createCharacteristicProvider } from './bluetooth';
 
+import FingerprintJS from '@fingerprintjs/fingerprintjs'
+
+// Initialize an agent at application startup.
+const fpPromise = FingerprintJS.load()
+
 // function Metric({name, uuid, service}) {
 //   const [value, setValue] = useState(false);
 //
@@ -55,6 +60,17 @@ function App() {
   const [values, setValues] = useState(false);
   const [primaryService, setPrimaryService] = useState(false);
   const [location, setLocation] = useState(false);
+  const [fingerprint, setFingerprint] = useState(false);
+
+  (async () => {
+    // Get the visitor identifier when you need it.
+    const fp = await fpPromise
+    const result = await fp.get()
+
+    // This is the visitor identifier:
+    const visitorId = result.visitorId
+    setFingerprint(visitorId);
+  })()
 
   const fetchMetrics = (service) => {
     let vals = {};
@@ -92,7 +108,6 @@ function App() {
     return () => clearTimeout(timeout);
   });
 
-
   useEffect(() => {
     const now = new Date();
 
@@ -104,6 +119,7 @@ function App() {
       const body = {
         location: location.lat + ', ' + location.lng,
         accuracy: location.acc,
+        visitor: fingerprint,
         "pm0.1": values['pm0.1'],
         "pm2.5": values['pm2.5'],
         "pm10": values['pm10'],
@@ -119,7 +135,7 @@ function App() {
       })
     }, 10000);
     return () => clearInterval(interval);
-  }, [values]);
+  }, [values, fingerprint]);
 
 
   return (
