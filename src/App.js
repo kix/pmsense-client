@@ -109,13 +109,13 @@ function App() {
   });
 
   useEffect(() => {
-    const now = new Date();
-
     if (values === false) {
       return;
     }
 
     const interval = setInterval(() => {
+      const now = new Date();
+
       const body = {
         location: location.lat + ', ' + location.lng,
         accuracy: location.acc,
